@@ -1,0 +1,7 @@
+scheme("CatsProject")
+project("CatsProject.xcodeproj")
+output_directory("./output")
+output_name("output_archive.ipa")
+configuration("Release")
+clean(true)
+export_options("./exportOptions.plist")
